@@ -26,5 +26,5 @@ io.on('connection', socket => {
   })
 })
 
-const port = 3000
+const port = 10000
 server.listen(port, () => console.log(`Nhập: http://localhost:${port} trên trình duyệt`))
